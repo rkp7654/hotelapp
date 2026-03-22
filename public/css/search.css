@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Top bar */
+.top-bar {
+    background: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    width: 98%;
+    top: 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 40px;
+}
+
+/* Field */
+.field {
+    background: #f9fafb;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.field label {
+    display: block;
+    font-size: 10px;
+    color: #6b7280;
+}
+
+.field input {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+}
+
+/* Guest */
+.guest-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.guest-box button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+/* Search button */
+.search-btn {
+    background: #111827;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* Menu */
+.menu-btn {
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+/* Dropdown */
+.menu-dropdown {
+    display: none;
+    position: absolute;
+    right: 1%;
+    top: 35px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu-dropdown a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Center */
+.center-content {
+    text-align: center;
+    margin: 120px 0;
+}
+
+.center-content .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}

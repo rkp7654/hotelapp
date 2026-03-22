@@ -1,0 +1,371 @@
+body {
+    font-family: Arial;
+    background: #f3f4f6;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.sub-text {
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+/* Room Card */
+.room-card {
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.room-card img {
+    width: 35%;
+    object-fit: cover;
+}
+
+.room-details {
+    padding: 20px;
+    width: 65%;
+}
+
+/* Options */
+.option {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.discount {
+    background: #d1fae5;
+    color: green;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.discount.red {
+    background: #fee2e2;
+    color: red;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 5px;
+}
+
+/* Price */
+.price-box {
+    text-align: right;
+}
+
+.price-box h4 {
+    margin: 0;
+}
+
+.price-box button {
+    margin-top: 5px;
+    padding: 8px 15px;
+    background: #111827;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Summary */
+.summary-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+}
+
+.summary-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.saved {
+    background: #d1fae5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: green;
+}
+
+.clear {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.book {
+    padding: 10px 20px;
+    background: #111827;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.container {
+    /* width: 70%; */
+    margin: 30px auto;
+    font-family: Arial;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h3 {
+    margin-bottom: 5px;
+}
+
+.section p {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Card */
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: #f9fafb;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.card label {
+    display: block;
+    font-size: 12px;
+    color: gray;
+}
+
+.card input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Save button */
+.save-btn {
+    margin-left: auto;
+    background: #111827;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* List */
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.badge {
+    background: #d1fae5;
+    color: green;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+.edit {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+
+.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tabs a {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    background: #eee;
+    color: #333;
+}
+
+.tabs .active {
+    background: #111827;
+    color: white;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background: #f3f4f6;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+td small {
+    color: gray;
+}
+
+#bookingSummary{
+    opacity: 0;
+    padding: 20px;
+    border: 2px solid #30bf33;
+    width: 500px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.btn-top{
+    margin-top: 20px;
+}
+
+.clear{
+    padding: 10px 20px;
+    background: lightgrey;
+    border-radius: 5px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.booknow{
+    padding: 10px 20px;
+    background: #30bf33;
+    border-radius: 5px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+#bookingConfirmation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+
+    h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #16a34a; /* green for success */
+    margin-bottom: 0.5rem;
+    }
+
+    p {
+    margin: 2rem 0;
+    color: #374151; /* dark gray text */
+    }
+
+    h3 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827; /* darker emphasis */
+    }
+
+    button {
+    margin-top: 1.5rem;
+    background-color: #2563eb; /* blue button */
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    }
+
+    button:hover {
+    background-color: #1e40af; /* darker blue on hover */
+    }
+
+    .max-w-md {
+    max-width: 400px;
+    }
+
+    .bg-white {
+    background-color: #fff;
+    }
+
+    .p-6 {
+    padding: 1.5rem;
+    }
+
+    .rounded {
+    border-radius: 8px;
+    }
+
+    .shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-center {
+    text-align: center;
+    }
+
+    .min-h-screen{
+        display: flex;
+    }
+    
+
+    
+}
+
+.footer {
+    background: aliceblue;
+    border: 2px solid;
+    padding: 10px;
+}
